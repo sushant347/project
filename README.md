@@ -7,7 +7,7 @@ This repository serves as a platform for students to submit their computer graph
 
 ## Repository Structure
 
-Each student must create a folder using their **Roll Number** and organize their lab submissions in the following structure:
+Each student must create a folder using their **Name** and organize their lab submissions in the following structure:
 
 ```
 /<Your-Name>
