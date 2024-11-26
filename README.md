@@ -1,16 +1,18 @@
-# Computer Graphics Lab Repository
+# Computer Graphics Lab Repository  
+
+**Class:** BCT II/I, Himalaya College of Engineering  
 
 Welcome to the **Computer Graphics Lab Repository**!  
-This repository serves as a platform for students to submit their computer graphics lab assignments. Each lab submission must follow the specified folder structure and include all necessary files to ensure uniformity and ease of evaluation.
+This repository is designed for students of BCT II/I at Himalaya College of Engineering to submit their computer graphics lab assignments in an organized and efficient manner. Each student will have a dedicated branch, and submissions must follow the specified folder structure.
 
 ---
 
 ## Repository Structure
 
-Each student must create a folder using their **Name** and organize their lab submissions in the following structure:
+Each student must submit their assignments on their respective branch, using their **name** as the main folder. Within this folder, lab submissions should be organized as follows:
 
 ```
-/<Your-Name>
+/<Your_Name>
    ├── Lab_<Lab_Number>
        ├── code.py       # Python script containing the lab code
        ├── output.png    # Screenshot(s) of the program's output
@@ -20,7 +22,7 @@ Each student must create a folder using their **Name** and organize their lab su
 ### Example:
 
 ```
-/12345
+/John_Doe
    ├── Lab_1
        ├── code.py
        ├── output.png
@@ -35,16 +37,19 @@ Each student must create a folder using their **Name** and organize their lab su
 
 ## Submission Guidelines
 
-1. **Folder Naming:**
-   - Use your **Name** as the name for your main folder.
-   - Create a new subfolder for each lab, named as `Lab_<Lab_Number>` (e.g., `Lab_1` for the first lab).
-   
-2. **Required Files in Each Lab Folder:**
+1. **Branch Assignment:**
+   - Each student has a dedicated branch. Ensure you are working in your assigned branch.
+
+2. **Folder Naming:**
+   - Use your **name** (First_Last format, e.g., `John_Doe`) for the main folder name.
+   - Create a separate subfolder for each lab, named as `Lab_<Lab_Number>` (e.g., `Lab_1` for the first lab).
+
+3. **Required Files in Each Lab Folder:**
    - **Python Code (`code.py`):** Your complete lab solution in Python, with proper comments explaining key steps.
    - **Output Screenshot (`output.png`):** A screenshot of the program output demonstrating the correct implementation of the lab task.
    - **Algorithm (`algorithm.md`):** A concise and well-structured markdown file detailing the algorithm or steps implemented in your code.
 
-3. **Completeness:**
+4. **Completeness:**
    - Ensure that all required files are included in the appropriate format before submission.
 
 ---
@@ -53,9 +58,16 @@ Each student must create a folder using their **Name** and organize their lab su
 
 ### Cloning the Repository
 
-To get started, clone the repository to your local system:
+To start working on your branch, clone the repository:
 ```bash
 git clone <repository_url>
+```
+
+### Switching to Your Branch
+
+After cloning the repository, switch to your branch:
+```bash
+git checkout <your_branch_name>
 ```
 
 ### Adding Your Lab Work
@@ -70,11 +82,11 @@ git clone <repository_url>
    ```
 3. Commit your changes with a descriptive message:
    ```bash
-   git commit -m "Added Lab_<Lab_Number> submission for Roll_Number"
+   git commit -m "Added Lab_<Lab_Number> submission for <Your_Name>"
    ```
-4. Push your changes to the remote repository:
+4. Push your changes to your branch:
    ```bash
-   git push origin main
+   git push origin <your_branch_name>
    ```
 
 ---
@@ -92,17 +104,20 @@ python code.py
 
 Your submission will be evaluated based on the following criteria:
 
-1. **Folder Structure:** 
+1. **Branch Usage:** 
+   - Submissions must be made in the correct branch.
+
+2. **Folder Structure:** 
    - Correct hierarchy and file naming conventions.
 
-2. **Python Code:**
+3. **Python Code:**
    - Accuracy and correctness of the implementation.
    - Readability of code, including comments and formatting.
 
-3. **Output Screenshot:**
+4. **Output Screenshot:**
    - The output screenshot must clearly demonstrate the solution.
 
-4. **Algorithm:**
+5. **Algorithm:**
    - The algorithm must be detailed, clear, and concise.
 
 ---
@@ -116,11 +131,11 @@ If you encounter any issues with the repository or need clarification, please co
 ## Notes
 
 - Make sure to commit your changes regularly to avoid data loss.
-- Double-check your submission for completeness before pushing to the repository.
+- Double-check your submission for completeness before pushing to your branch.
 
 ---
 
 Happy coding! 🚀
 ```
 
-Feel free to use and modify as needed!
+Keep on learning.
