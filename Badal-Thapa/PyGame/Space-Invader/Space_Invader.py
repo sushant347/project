@@ -40,8 +40,8 @@ for i in range(no_of_aliens):
     enemyX.append(random.randint(0, 786))
     enemyY.append(random.randint(30, 200))
     # Speed Of Enemy
-    enemyspeedX.append(-10)
-    enemyspeedY.append(40)
+    enemyspeedX.append(5)
+    enemyspeedY.append(10)
 
 # Axis Of Player
 playerX = 425
@@ -63,7 +63,7 @@ def score_text():
 # To Show Game Over On Screen
 gameover_font = pygame.font.SysFont('Candara', 64, 'bold')
 def gamover():
-    gameover_img = gameover_font.render('Gamover Over', True, 'white')
+    gameover_img = gameover_font.render('  Game Over', True, 'white')
     screen.blit(gameover_img, (200, 255))
 
 # Screen On Hold
